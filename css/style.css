@@ -5,4 +5,8 @@ div {
 div p {
   font-size: 25px;
 }
+
+div p span {
+  font-size: 30px;
+}
 /*# sourceMappingURL=style.css.map */

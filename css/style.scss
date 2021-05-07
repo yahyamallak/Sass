@@ -1,9 +1,14 @@
 $mainColor: blue;
+$mainFontSize: 25px;
 
 div {
     background: $mainColor;
 }
 
 div p {
-    font-size: 25px;;
+    font-size: $mainFontSize;
+}
+
+div p span {
+    font-size: 30px;
 }
