@@ -1,0 +1,25 @@
+$arabicFont: "Droid Arabic Kufi";
+$englishFont: "Arial, sans-serif";
+$mainMargin: 10px;
+$mainColor2: #008;
+
+div {
+    p {
+        font-family: $arabicFont;
+        border: 2px solid $mainColor2;
+        color: #000;
+
+        span {
+            color: $mainColor2;
+            &:hover {
+                color: #000;
+            }
+        }
+    }
+
+}
+
+div {
+    font-family: $englishFont;
+    margin-top: $mainMargin;
+}

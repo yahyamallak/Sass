@@ -1,0 +1,18 @@
+div p {
+  font-family: "Droid Arabic Kufi";
+  border: 2px solid #008;
+  color: #000;
+}
+div p span {
+  color: #008;
+}
+div p span:hover {
+  color: #000;
+}
+
+div {
+  font-family: "Arial, sans-serif";
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */
